@@ -4,13 +4,6 @@ body {
   background-color: #fafafa;
   color: #999;
   min-width: 360px;
-  /* width: 100%; */
-}
-
-main{
-  /* padding: 0% 10%; */
-  /* margin: auto; */
-  /* width: 80%; */
 }
 
 a {
@@ -38,7 +31,6 @@ h2 {
 }
 
 section {
-  /* width: 850px; */
   margin: 0 auto;
   min-width: 850px;
   max-width: 850px;
@@ -47,8 +39,6 @@ section {
 footer {
   margin: 10% auto;
   width: 100%;
-  /* padding: 5%; */
-  /* text-align: center; */
   display: inline-block;
 }
 
@@ -121,7 +111,6 @@ nav {
 
 .CopyText {
   display: inline-block;
-  /* width: 10%; */
 }
 
 @media (max-width: 962px){

@@ -1,20 +1,39 @@
-# CSS Lab
-
-## Timings
-
-This lab should take one to two hours.
+# Instagram Landing Page Homework
 
 ## Summary
 
-Creating complex looking pages is not as hard as you might think. Recreate the following page using only CSS and HTML.
+The task for this homework was to recreate the signup page from [Instragram](https://www.instagram.com) and make it responsive.
 
-![Image of instagram login page](Instagram.png)
+## Features
 
-You can use the developer console in your browser to get colours, pixel sizes and fonts etc from the real site.
+* A signup form, with buttons
+* Image of phone placed side by side with signup form
+* Image and form retain their position regardless of page size
+* Link to 'Log In'
+* App images underneath form
+* Footer with links and copyright
 
+![Full Page Layout](images/Screenshot_1.png)
 
-## Notes
+## Responsive Design
 
-* Think about the flow of the page. Avoid absolute positioning unless it is completely necessary.
-* Keep your CSS as simple as possible. There are very few parts of the page that should require more than three or four lines of CSS.
-* Keep your HTML simple. Think about how you could split the page in to blocks.
+The second part of the task was to hide the phone image when the page reduces to mobile size.
+
+In CSS I used a `@media` query to change the styling of the page wen the width became a certain size.
+
+```
+@media (max-width: 962px){
+  .PhoneImg {
+    display: none;
+  }
+```
+
+When the image is hidden I also expanded the width of the form to fill the screen.
+
+```
+.SignUpForm {
+  width:100%;
+  display: block;
+}
+```
+![Mobile Layout](images/Screenshot_2.png)
